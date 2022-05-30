@@ -1,0 +1,102 @@
+{
+    "es":{
+        "title":"Athorfeo",
+        "titleExtension":"io",
+        "titleCareer":"Ingeniero en Multimedia",
+ 
+        "actionRepositories":"Repositorios",
+        "actionCurriculum":"Curriculum",
+ 
+        "labelRepositories":"Repositories",
+ 
+        "repositories":[
+            {
+                "title":"mobile-android-architecture",
+                "description":"Android: Kotlin, Compose, Flow, Jetpack",
+                "url":"https://github.com/Athorfeo/android-architecture"
+            },
+            {
+                "title":"athorfeo.github.io",
+                "description":"Web: HTML, CSS, JavaScript",
+                "url":"https://github.com/Athorfeo/athorfeo.github.io"
+            },
+            {
+                "title":"tucasaconstrucciones",
+                "description":"Web: React, Boostrap, JavaScript",
+                "url":"https://github.com/Athorfeo/tucasaconstrucciones"
+            },
+            {
+                "title":"Ver todos los repositorios",
+                "description":"Ver toda la lista completa de repositorios",
+                "url":"https://github.com/Athorfeo?tab=repositories"
+            }
+        ],
+ 
+        "curriculum":{
+            "firstName":"Juan",
+            "lastName":"Ortiz",
+            "jobTitle":"Mobile Architect | Android Developer",
+            "getInTouch":{
+                "title":"Ponerse en contacto conmigo",
+                "description":"Puedes contactarme a traves de",
+                "location":"Bogotá, Colombia",
+                "email":"juanortizbayona@gmail.com"
+            },
+            "overview":"Ingeniero en multimedia apasionado por la tecnología y desarrollo de software. Interesado en el rendimiento y experiencia en las aplicaciones móviles.",
+            "experience":"Experiencia",
+            "experiences":[
+                {
+                    "date":"07/2021 - Present",
+                    "jobTitle":"Mobile Architect Lead",
+                    "company":"NovoPayment",
+                    "description":"Como Architecto Mobile, estoy a cargo de la selección de elementos estructurales para le definición de aplicaciones y librerías móviles seguras (Android, iOS, Hibridas). Soy responsable de crear soluciones que traduzcan la visión de la empresa y cliente en un marco funcional y práctico velando por el cumplimiento de estándares que garanticen la madurez y crecimiento técnico no solo de las soluciones sino también de los diferentes miembros de los equipos que las desarrollan. ",
+                    "responsabilities":"Responsabilidades",
+                    "listResponsabilities":[
+                        "Apoyar al equipo mobile con la selecciones de patrones y diseño de funcionalidades",
+                        "Diseñar las arquitecturas base (iOS, Android, Flutter)",
+                        "Diseño de componentes y actores para nuevas soluciones",
+                        "Revision de código"
+                    ]
+                },
+                {
+                    "date":"11/2019 - 07/2021",
+                    "jobTitle":"Android Developer",
+                    "company":"NovoPayment",
+                    "description":"A cargo de implementar arquitecturas, librerías, diseño de interfaces y funcionalidades con manipulación de servicios web bajo la metodología de desarrollo SCRUM.",
+                    "responsabilities":"Responsabilidades",
+                    "listResponsabilities":[
+                        "Diseñar e implementar funcionalidades para las aplicaciones moviles y librerias",
+                        "Diseñar e implementar de libreria para pagos contactless",
+                        "Diseñar e implementar interfaces gráficas"
+                    ]
+                },
+                {
+                    "date":"09/2018 – 11/2019",
+                    "jobTitle":"Android Developer",
+                    "company":"Periferia IT",
+                    "description":"Responsable de múltiples aplicaciones móviles para Android y iOS. Diseño e implementación de arquitectura Android MVVM.",
+                    "responsabilities":"Responsabilidades",
+                    "listResponsabilities":[
+                        "Diseño de arquitectura para aplicaciones Android (MVVM)",
+                        "Consumo de servicios web (REST)",
+                        "Diseñar e implementar interfaces gráficas"
+                    ]
+                },
+                {
+                    "date":"11/2017 – 10/2018",
+                    "jobTitle":"Android Developer",
+                    "company":"Talos Automatics",
+                    "description":"Responsable del desarrollo de una aplicación Point of Sales (POS).",
+                    "responsabilities":"Responsabilidades",
+                    "listResponsabilities":[
+                        "Diseño de arquitectura para aplicaciones Android",
+                        "Diseño e implementación de almacenamiento de datos (SQLite)",
+                        "Implementación de funcionalidades(casos de usos)",
+                        "Integracion con perifericos (Impresoras y Scanners)"
+                    ]
+                }
+            ]
+        }
+    }
+ }
+ 
