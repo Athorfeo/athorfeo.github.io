@@ -49,10 +49,11 @@
                     "date":"07/2021 - Present",
                     "jobTitle":"Mobile Architect Lead",
                     "company":"NovoPayment",
-                    "description":"Como Architecto Mobile, estoy a cargo de la selección de elementos estructurales para le definición de aplicaciones y librerías móviles seguras (Android, iOS, Hibridas). Soy responsable de crear soluciones que traduzcan la visión de la empresa y cliente en un marco funcional y práctico velando por el cumplimiento de estándares que garanticen la madurez y crecimiento técnico no solo de las soluciones sino también de los diferentes miembros de los equipos que las desarrollan. ",
+                    "description":"Como Architecto Mobile, estoy a cargo de la selección de elementos estructurales para le definición de aplicaciones y librerías móviles seguras (Android, iOS, Hibridas). Soy responsable de diseñar soluciones que traduzcan la visión de la empresa y cliente en un marco funcional y práctico velando por el cumplimiento de estándares que garanticen la madurez y crecimiento técnico no solo de las soluciones sino también de los diferentes miembros de los equipos que las desarrollan. ",
                     "responsabilities":"Responsabilidades",
                     "listResponsabilities":[
                         "Apoyar al equipo mobile con la selecciones de patrones y diseño de funcionalidades",
+                        "Establecer las directrices para naming convention, architecture guideline, y manejo de git",
                         "Diseñar las arquitecturas base (iOS, Android, Flutter)",
                         "Diseño de componentes y actores para nuevas soluciones",
                         "Revision de código"
@@ -89,10 +90,10 @@
                     "description":"Responsable del desarrollo de una aplicación Point of Sales (POS).",
                     "responsabilities":"Responsabilidades",
                     "listResponsabilities":[
-                        "Diseño de arquitectura para aplicaciones Android",
-                        "Diseño e implementación de almacenamiento de datos (SQLite)",
-                        "Implementación de funcionalidades(casos de usos)",
-                        "Integracion con perifericos (Impresoras y Scanners)"
+                        "Diseñar la arquitectura para aplicaciones Android",
+                        "Diseñar e implementar el almacenamiento de datos (SQLite)",
+                        "Implementar las funcionalidades (casos de usos)",
+                        "Integrar aplicaciones Android con perifericos (Impresoras y Scanners)"
                     ]
                 }
             ]
