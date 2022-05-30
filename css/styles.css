@@ -1,8 +1,112 @@
-.nav-container{
-  background-color:  #222;
+:root {
+  --color-primary: #D0BCFF;
+  --color-on-primary: #381E72;
+  --color-primary-container: #4F378B;
+  --color-on-primary-container: #EADDFF;
+
+  --color-secondary: #CCC2DC;
+  --color-on-secondary: #332D41;
+  --color-secondary-container: #4A4458;
+  --color-on-secondary-container: #E8DEF8;
+
+  --color-error: #F2B8B5;
+  --color-on-error: #601410;
+  --color-error-container: #8C1D18;
+  --color-on-error-container: #F9DEDC;
+
+  --color-background: #1C1B1F;
+  --color-on-background: #E6E1E5;
+  --color-surface: #1C1B1F;
+  --color-on-surface: #E6E1E5;
+  --color-surface-variant: #49454F;
+  --color-on-surface-variant: ##CAC4D0;
+  
+  --color-outline: #938F99;
 }
 
-.text-logo{
-  color: #FFF;
-  line-height: 58px;
+body{
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-primary{
+  background-color: var(--color-primary) !important;
+}
+
+.bg-on-background {
+  background-color: var(--color-on-background) !important;
+}
+
+.bg-surface-variant{
+  background-color: var(--color-surface-variant) !important;
+}
+
+.text-primary{
+  color: var(--color-primary) !important;
+}
+
+.text-on-surface{
+  color: var(--color-on-surface) !important;
+}
+
+.btn-primary {
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary) !important;
+  color: var(--color-on-primary) !important;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  border: 1px solid var(--color-primary);
+}
+
+.btn-outline-primary {
+  border: 1px solid var(--color-primary);
+  background-color: transparent !important;
+  color: var(--color-primary) !important;
+  border-radius: 50px;
+}
+
+.btn-outline-primary:hover {
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary) !important;
+  color: var(--color-on-primary) !important;
+}
+
+.title-home {
+  font-size: 10vw;
+}
+
+.subtitle-home {
+  font-size: 2vw;
+}
+
+.divider {
+  width: 25%;
+  height: 2px;
+}
+
+@media (min-width: 576px) {
+  .button-home {
+    padding:.5rem 1rem;
+    font-size:1.25rem;
+    border-radius:.3rem
+  }
+
+  .btn-primary {
+    border-radius: 50px;
+  }
+  
+  .btn-outline-primary {
+    border-radius: 50px;
+  }
+
+  .divider {
+    width: 7%;
+    height: 2px;
+  }
 }
